@@ -815,6 +815,13 @@ button, input, textarea:focus {
 	width: 100%;
 	height: 280px;
 }
+
+.hidden-iframe{
+	position: relative;
+	width: 100%;
+	display: none;
+}
+
 .form-wrapper{
 	margin-top: 2rem;
 	position: relative;

@@ -97,7 +97,7 @@
 						<br><br><br>
 						<!-- Main-btn -->
 						<div class="atf-main-btn mt-4"> 
-							<a href="#" class="page-scroll atf-themes-btn" style="position: relative; align-self:center; width: 100%; text-align: center;">See Earning Opportunities</a>
+							<a href="#video-fluid" class="page-scroll atf-themes-btn" style="position: relative; align-self:center; width: 100%; text-align: center;">See Earning Opportunities</a>
 							<!-- <a href="https://www.templatemonster.com/landing-page-template/al-muqit-cv-resume-portfolio-landing-page-template-126719.html" class="page-scroll atf-themes-btn btn-2">Pro Version</a> -->
 						</div>
 					</div><!--- END COL -->
@@ -173,16 +173,19 @@
 					<div class="col-lg-6 col-md-6 col-12 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
 						<div class="atf-about-img text-lg-center text-center my-auto mt-lg-2">
 							<!-- <img src="assets/img/banner/3.jpg" alt="about-image" class="img-fluid card-s" /> -->
+							<br>
+							<h2 id="video-fluid" style="text-align: left;">Let's Learn</h2>
+							<br>
 							<iframe class="video-fluid" src="https://www.youtube.com/embed/mMV4eudPXO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							
-							<form class="form-wrapper">
+							<iframe name="hidden-iframe" class="hidden-iframe" id="hidden-iframe" frameborder="0"></iframe>
+							<form class="form-wrapper" action="https://docs.google.com/forms/u/0/d/1l2TQvdQAvEqKivLKx5r1rcd84FatuEc1ArHiaGcXgwo/formResponse" method="POST" target="hidden-iframe" onsubmit="showAlert()">
 								<h3>Have Queries?</h3>
 								<p>Let me solve them and start your journey!</p>
 								<br>
-								<input type="text" name="name" id="name" placeholder="Your Name">
-								<input type="tel" name="phone" id="phone" placeholder="Your Phone">
-								<textarea name="msg" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
-								<button class="form-submit">Send</button>
+								<input type="text" name="entry.1847018268" id="name" placeholder="Your Name" required>
+								<input type="tel" name="entry.958905827" id="phone" placeholder="Your Phone" required>
+								<textarea name="entry.267073677" id="msg" cols="30" rows="10" placeholder="Message" required></textarea>
+								<button type="submit" class="form-submit">Send</button>
 							</form>
 						</div>
 					</div><!--- END COL -->
@@ -228,5 +231,10 @@
 		<!-- Lottie Animation -->
 		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
+		<script>
+			function showAlert(){
+				window.alert("Hey! My team has received your details. I'll contact you soon!")
+			}
+		</script>
 </body>
 </html>
