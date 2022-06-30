@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    position: relative;
+    margin: 2rem auto 1rem;
+    text-align: center;
+    font-size: 2.6rem;
+    color: darkslategray;
+    font-weight: 600;
+}
+
+.apps-wrapper{
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
+    height: auto;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.app-card{
+    position: relative;
+    width: 18vw;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 24px;
+    border: 2px solid #F4A950;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    transition: all .3s ease;
+}
+.app-card:hover{
+    transform: translateY(-.5rem);
+    background: #F4A950;
+    color: #FFF;
+}
+
+.app-title{
+    position: relative;
+    margin-bottom: .5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.app-desc{
+    position: relative;
+    font-size: .8rem;
+}
+
+
+
+.subtitle{
+    position: relative;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+    color: darkslategray;
+    font-weight: 400;
+}
+
+
+
+.wa-chat {
+	position: fixed;
+	right: 1rem;
+	bottom: 1.5rem;
+	z-index: 999;
+	cursor: pointer;
+	transition: 1.5s ease;
+	border: none;
+	background: transparent; 
+}
+.wa-chat-img {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	background: none;
+}
+
+
+.home-btn{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 28px;
+    background: linear-gradient(120deg, rgb(86, 86, 255), rgb(43, 43, 199));
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    z-index: 100;
+}
+.home-btn h3{
+    font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    .title{
+        margin-top: 4rem;
+        font-size: 2rem;
+    }
+
+    .app-card{
+        width: 100%;
+    }
+
+    .subtitle{
+        max-width: 100%;
+        font-size: .85rem;
+    }
+}

@@ -632,7 +632,7 @@ button, input, textarea:focus {
 * ----------------------------------------------------------------------------------------
 */
 .atf-bg-home {
-	height: 100vh !important;
+	height: auto;
 	background-image: url(../img/banner/bg-home.jpg);
 	position: relative;
 	background-position: center;
