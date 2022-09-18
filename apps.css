@@ -73,6 +73,24 @@ body{
 }
 
 
+.insta-btn{
+    position: relative;
+    margin: 1rem auto;
+    width: auto;
+    padding: 1rem 2rem;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    color: #FFF;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 36px;
+    transition: all .3s ease;
+}
+.insta-btn:hover{
+    filter: hue-rotate(-120deg);
+}
+.insta-btn i{
+    margin-right: 1rem;
+}
 
 .subtitle{
     position: relative;
