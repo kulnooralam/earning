@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Amazing apps picked by Kulnoor Alam">
+    <title>Kulnoor Alam | Apps</title>
+
+    <link rel="stylesheet" href="apps.css">
+    <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.theme.default.css" />
+</head>
+
+<body>
+    <h1 class="title">Graphic Designs</h1>
+    <p class="subtitle">Designs I made for clients throughout the nation.</p>
+    <div class="apps-wrapper" style="height: auto !important;" id="gallery">
+
+        <!-- Copy this code snippet to duplicate image -->
+        <img src="assets/img/websiteimg.jpg" alt="Image Alt Text">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWiGJnnHVLXDt5XHh5CxWfr5MPpql4Vs_CbtbVbgII&s"
+            alt="Image Alt Text">
+        <img src="https://i.pinimg.com/236x/67/1c/7c/671c7c5707e40c78c9894f8454ccb2f7.jpg" alt="Image Alt Text">
+        <img src="https://static.toiimg.com/thumb/msid-31346158,width-748,height-499,resizemode=4,imgsize-114461/.jpg"
+            alt="Image Alt Text">
+        <img src="https://static.toiimg.com/thumb/msid-31346158,width-748,height-499,resizemode=4,imgsize-114461/.jpg"
+            alt="Image Alt Text">
+        <img src="https://i.pinimg.com/236x/67/1c/7c/671c7c5707e40c78c9894f8454ccb2f7.jpg" alt="Image Alt Text">
+
+        <img src="assets/img/websiteimg.jpg" alt="Image Alt Text">
+
+        <!-- image code ends here -->
+
+    </div>
+
+    <h1 class="title">Websites</h1>
+    <p class="subtitle">Some amazing websites we built for startups!</p>
+    <div class="apps-wrapper">
+
+        <div class="owl-carousel owl-theme">
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+        </div>
+
+    </div>
+
+    <a href="https://instagram.com/kulnoor_alam?igshid=YmMyMTA2M2Y=" target="_blank" class="insta-btn"><i
+            class="bi-instagram"></i>follow me on instagram</a>
+    <p class="subtitle">
+        For business enquiries, please mail me at <a href="kulnoor@dezynation.com"
+            target="_blank">kulnoor@dezynation.com</a>
+    </p>
+
+    <!-- Whatsapp chat -->
+    <a href="https://wa.me/916306132710?text=Hello%20Kulnoor!." class="wa-chat">
+        <img src="./assets/img/whatsapp.png" class="wa-chat-img" alt="Whatsapp">
+    </a>
+
+    <!-- Home Button -->
+    <a href="index.html" class="home-btn">
+        <h3><i class="bi bi-house-door-fill"></i>&nbsp;&nbsp;Home</h3>
+    </a>
+
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script>
+        var macyInstance = Macy({
+            container: "#gallery",
+            margin: {
+                x: 10,
+                y: 10,
+            },
+            columns: 4,
+            breakAt: {
+                columns: 2
+            }
+        })
+
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel();
+        });
+    </script>
+</body>
+
+</html>
